@@ -154,7 +154,7 @@ script. These files are the same as *spot-alexa-rpi-31000.snsr*.
     - Initial release.
 
 ---------
-*Copyright &copy; 2016-2017 Sensory, Inc. http://sensory.com/*
+*Copyright &copy; 2016-2018 Sensory, Inc. http://sensory.com/*
 
 [alexa]:   https://github.com/alexa/alexa-avs-sample-app
 
