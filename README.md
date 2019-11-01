@@ -108,6 +108,12 @@ script. These files are the same as *spot-alexa-rpi-31000.snsr*.
 
 ## Change Log
 
+#### 6.12.0 - 2019-11-01
+* Changed
+    - TrulyHandsfree SDK 6.12.0.
+    - New model with improved wakeword performance, especially in low
+      signal amplitude conditions.
+
 #### 5.0.0-beta.10.2 - 2018-05-01
 * Changed
     - New model with improved wakeword performance.
@@ -154,7 +160,7 @@ script. These files are the same as *spot-alexa-rpi-31000.snsr*.
     - Initial release.
 
 ---------
-*Copyright &copy; 2016-2018 Sensory, Inc. http://sensory.com/*
+*Copyright &copy; 2016-2019 Sensory, Inc. http://sensory.com/*
 
 [alexa]:   https://github.com/alexa/alexa-avs-sample-app
 
