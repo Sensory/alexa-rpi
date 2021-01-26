@@ -3,10 +3,15 @@
 
 ## About the Project
 
-This [project][] provides plug-in keyword spotting for the
-[Alexa AVS sample app][alexa] Raspberry Pi project, using
-[Sensory's][sensory] [TrulyHandsfree][thf] technology. It includes
-speaker-independent recognizers for the phrase "Alexa".
+This [project][] was originally created to provide plug-in keyword spotting for
+the now defunct [Alexa AVS sample app][alexa] Raspberry Pi project. It is used
+as a third-party Key Word Detection option in the current
+[AVS Device SDK][avs-sdk].
+
+This repository provides speaker-independent recognizers for the phrase "Alexa",
+for Raspberry Pi models with the ARM-v7a instruction set. Please contact
+[Sensory Sales][sales] to obtain libraries for other architectures.
+
 
 ## License
 
@@ -28,8 +33,7 @@ as enrolled speaker-specific triggers and speaker verification.
 
 ## Getting Started
 
-This project is a plug-in for the [Alexa AVS sample app][alexa] project.
-Please follow the build and configuration instructions for that project.
+Please follow the build instructions in the [AVS Device SDK][avs-sdk].
 
 ## Model selection
 
@@ -108,6 +112,12 @@ script. These files are the same as *spot-alexa-rpi-31000.snsr*.
 
 ## Change Log
 
+### 6.12.0 - 2019-12-04
+* Changed
+   - README to acknowledge that the [Alexa AVS sample app][alexa]
+     is no longer available, and to add a link to the
+     [AVS Device SDK][avs-sdk].
+
 #### 6.12.0 - 2019-11-01
 * Changed
     - TrulyHandsfree SDK 6.12.0.
@@ -163,6 +173,7 @@ script. These files are the same as *spot-alexa-rpi-31000.snsr*.
 *Copyright &copy; 2016-2019 Sensory, Inc. http://sensory.com/*
 
 [alexa]:   https://github.com/alexa/alexa-avs-sample-app
+[avs-sdk]: https://github.com/alexa/avs-device-sdk
 
 [sensory]: http://sensory.com/
 [sales]:   http://www.sensory.com/support/contact/us-sales/
